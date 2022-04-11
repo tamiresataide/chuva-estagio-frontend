@@ -3,18 +3,15 @@
    padding: 0;
    box-sizing: border-box;
 }
-
 .fixed-wrapper{
    width: 220px;
    position: fixed;
    box-shadow: 0px 0px 10px 0px #00000040;
    height: 100%;
 }
-
 .fixed-wrapper a{
    text-decoration: none;
 }
-
 .side-title{
    display: flex;
    justify-content: center;
@@ -25,16 +22,13 @@
    font-family: 'Roboto', sans-serif;
    font-weight: 700;
 }
-
 .side-title h1{
    font-size: 30px;
 }
-
 nav{
    display: flex;
    flex-direction: column;
 }
-
 nav a{
    font-family: 'Quicksand', sans-serif;
    font-weight: 500;
@@ -46,36 +40,28 @@ nav a{
    display: flex;
    align-items: center;
 }
-
 .menu-item{
    padding: 5px 24px;
    border-bottom: 2px solid #E7E7E7;
    height: 33px;
-   justify-self: center;
-   
+   justify-self: center;  
 }
-
 .retangulo img{
    margin-left: -24px;
    margin-bottom: -3px;
 }
-
 .desativado .retangulo{
    display: none;
 }
-
 .ativado{
    background-color: #FDF1EB;
 }
-
 .ativado .retangulo{
    display: block;
 }
-
 .main-container{
    margin-left: 220px;
 }
-
 header{
    background-color: #FDF1EB;
    color: #725C5C;
@@ -87,23 +73,19 @@ header{
    align-items: center;
    justify-content: space-between;
 }
-
 header p{
    font-family: 'Roboto', sans-serif;
    font-weight: 400;
    font-size: 14px;
 }
-
 header h2{
    font-family: 'Roboto', sans-serif;
    font-weight: 400;
    font-size: 22px;
 }
-
 .header-side{
    display: flex;
 }
-
 .header-lang{
    padding: 5px 8px 8px 9px;
    font-family: 'Quicksand', sans-serif;
@@ -114,37 +96,30 @@ header h2{
    display: flex;
    align-items: flex-end;
 }
-
 #dropdown{
    align-self: center;
 }
-
 .login{
    display: flex;
    justify-content: end;
    align-items: flex-end;
 }
-
 .login-text{
    font-family: 'Quicksand', sans-serif;
    text-align: end;
    font-size: 12px;
 }
-
 .login-text span{
    font-size: 14px;
 }
-
 #profile-pic{
    border-radius: 60%;
    margin-left: 5px;
 }
-
 #notificacao{
    position: absolute;
    right: 10px;
 }
-
 .login-image span{
    font-family: 'Roboto', sans-serif;
    font-size: 12px;
@@ -154,24 +129,20 @@ header h2{
    right: 12px;
    top: 17px;
 }
-
 .main-content{
    display: flex;
    flex-direction: column;
    margin-left: 43px;
 }
-
 .video-area{
    display: flex;
    justify-content: space-between;
    margin-bottom: 30px;
 }
-
 .video-area-principal{
    flex: 3;
    margin-right: 10px;
 }
-
 .video-area-principal h3{
    font-family: 'Roboto', sans-serif;
    font-size: 20px;
@@ -180,7 +151,6 @@ header h2{
    margin: 20px 0;
    letter-spacing: 1px;
 }
-
 .video-image{
    background-image: url("../images/video.png");
    margin-left: 2px;
@@ -188,12 +158,10 @@ header h2{
    width: 783px;
    height: 439px;
 }
-
 #overlay{
    position: absolute;
    left: 265px;
 }
-
 .video-title{
    position: absolute;
    margin-top: 36px;
@@ -206,44 +174,37 @@ header h2{
    letter-spacing: 0.05em;
    line-height: 25px;
 }
-
 .video-info{
    position: absolute;
    margin-top: 301px;
    margin-left: 31px;
 }
-
 #video-user{
    border-radius: 50%;
    margin-left: 4px;
    margin-top: 4px;
 }
-
 #outline{
    position: absolute;
    left: 0;
 }
-
 .info-author{
    display: inline-block;
    margin-left: 17px;
    letter-spacing: 1px;
 }
-
 .info-author-name{
    font-family: 'Roboto', sans-serif;
    font-size: 34px;
    font-weight: 900;
    color: #FFF;
 }
-
 .info-author-college{
    font-family: 'Roboto', sans-serif;
    font-size: 20px;
    font-weight: 900;
    color: #FFF;
 }
-
 .video-area-side{
    width: 242px;
    margin-top: 20px;
@@ -263,9 +224,7 @@ header h2{
    font-size: 16px;
    color: #FFF;
 }
-
 .citar{
-   
    font-family: 'Roboto', sans-serif;
    font-size: 14px;
    font-weight: 500;
@@ -274,11 +233,9 @@ header h2{
    text-align: end;
    margin: 10px 0;
 }
-
 .detalhes{
    border-radius: 3px 3px 0px 0px;
 }
-
 .section-title{
    background-color: #FDF1EB;
    font-family: 'Roboto', sans-serif;
@@ -288,7 +245,6 @@ header h2{
    border: 1px solid #ECECEC;
    color: #4E4E4E
 }
-
 .detalhes-content{
    font-family: 'Quicksand', sans-serif;
    font-size: 12px;
@@ -298,46 +254,37 @@ header h2{
    color: #5C5C5C;
    display: flex;
 }
-
 .content-text{
    margin: 15px;
 }
-
 #lista-autores{
    list-style-type: none;
    line-height: 17px;
    font-size: 14px;
 }
-
 #lista-universidades{
    list-style-type: none;
    color: #b4b4b4;
    line-height: 17px;
 }
-
 .resumo{
    border: 1px solid #ECECEC;
    border-radius: 3px;
    margin-bottom: 20px;
 }
-
 .resumo a{
    text-decoration: none;
 }
-
 .resumo span{
    color: #ED7839;
    font-weight: 700;
 }
-
 .resumo p{
    padding: 15px;
 }
-
 .discussoes{
    border: 1px solid #ECECEC;
 }
-
 .resumo p, .discussoes p{
    padding-bottom: 15px;
    font-family: 'Quicksand', sans-serif;
@@ -345,34 +292,28 @@ header h2{
    font-weight: 400;
    color: #5C5C5C;
 }
-
 .discussoes p{
  margin-bottom: 15px;
 }
-
 .cirar-topico{
    display: flex;
    flex-direction: column;
    align-items: center;
    margin-top: 15px;
 }
-
 .discussoes span{
    font-family: 'Roboto', sans-serif;
    font-size: 18px;
    color: #ED7839;
    font-weight: 700;
 }
-
 .cirar-topico p{
    max-width: 626px;
    text-align: center;
 }
-
 .discussao-icones img{
    padding: 25px;
 }
-
 .topico-botao{
    display: flex;
    align-items: center;
@@ -381,11 +322,9 @@ header h2{
    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
    border-radius: 4px; 
 }
-
 .topico-botao img{
    margin-right: 6px;
 }
-
 .topico-botao a{
    text-decoration: none;
    font-family: 'Quicksand', sans-serif;
@@ -393,11 +332,9 @@ header h2{
    font-weight: 500;
    color: #FFF;
 }
-
 #divisoria{
    margin-bottom: -20px;
 }
-
 .topico-criado{
    margin: 15px;
    border: 1px solid #ECECEC;
@@ -405,12 +342,10 @@ header h2{
    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
    font-family: 'Quicksand', sans-serif;
 }
-
 .topico-titulo, .topico-autor, .topico-conteudo, .topico-footer{
    padding-right: 24px;
    padding-left: 24px;
 }
-
 .topico-titulo{
    font-size: 16px;
    font-weight: 700;
@@ -418,14 +353,12 @@ header h2{
    margin-bottom: 3px;
    margin-top: 17px;
 }
-
 .topico-autor{
    font-size: 12px;
    font-weight: 700;
    color: #5C5C5C;
    margin-bottom: 10px;
 }
-
 .topico-conteudo{
    font-family: 'Quicksand', sans-serif;
    font-size: 14px;
@@ -433,7 +366,6 @@ header h2{
    color: #4D4D4D;
    margin-bottom: 10px;
 }
-
 .topico-footer{
    display: flex;
    align-items: center;
@@ -442,7 +374,6 @@ header h2{
    color: #757575;
    margin-bottom: 17px;
 }
-
 .elipses{
    display: flex;
    flex-direction: column;
@@ -450,7 +381,6 @@ header h2{
    justify-content: space-between;
    margin-right: 15px;
 }
-
 .likes{
    display: flex;
    align-items: center;
@@ -461,27 +391,22 @@ header h2{
    width: 27px;
    margin-right: 15px;
 }
-
 footer{
    margin-top: 50px;
    margin-left: 15px;
 }
-
 .novo-topico{
    border-bottom: 1px solid #E7E7E7;
    margin: 0px 18px 30px 
 }
-
 .novo-topico p{
    margin-top: 15px;
    text-align: center;
 }
-
 .novo-topico form{
    display: flex;
    flex-direction: column;
 }
-
 .novo-topico label{
    font-family: 'Roboto', sans-serif;
    font-size: 16px;
@@ -489,7 +414,6 @@ footer{
    color: #ED7839;
    line-height: 18.75px;
 }
-
 .novo-topico input{
    height: 39px;
    border: 1px solid #CCCCCC;
@@ -497,7 +421,6 @@ footer{
    margin-bottom: 10px;
    padding-left: 23.13px;
 }
-
 .novo-topico textarea{
    height: 113px;
    resize: none;
@@ -505,7 +428,6 @@ footer{
    border-bottom: none;
    border-radius: 3px;
 }
-
 .textarea-footer{
    display: flex;
    justify-content: space-between;
@@ -517,11 +439,9 @@ footer{
    border-radius: 0px 0px 4px 4px;
    margin-bottom: 15px;
 }
-
 #bold{
    margin: 0 29.3px;
 }
-
 .topico-submit{
    background: linear-gradient(180deg, #FEB154 0%, #F1833E 100%);
    width: 205.1px;
@@ -535,17 +455,14 @@ footer{
    align-items: center;
    justify-content: center;
 }
-
  .textarea-footer a{
    text-decoration: none;
    color: #FFF;
 }
-
 .topico-enviado{
    margin-bottom: 47px;
    text-align: center;
 }
-
 .enviado-titulo{
    font-family: 'Roboto', sans-serif;
    font-size: 18px;
@@ -553,7 +470,6 @@ footer{
    color: #ED7839;
    margin-bottom: 18px;
 }
-
 .topico-enviado span{
    font-family: 'Quicksand', sans-serif;
    font-weight: 500;
@@ -561,11 +477,9 @@ footer{
    color: #F48F44;
    text-decoration: underline;
 }
-
 .topico-botao.novo{
    padding: 7px 55.6px 9px 56.53px;
 }
-
 .aguardando-feedback{
    background-image: url(../images/feedback.png);
    background-position-x: -5px;
@@ -580,7 +494,6 @@ footer{
    justify-content: center;
    align-items: center;
 }
-
 .aguardando-feedback p{
    color: #707070;
    font-family: 'Quicksand', sans-serif;
@@ -589,7 +502,6 @@ footer{
    margin-top: 8px;
    margin-bottom: 0;
 }
-
 .aguardando-feedback span{
    color: #ED7839;
    font-family: Arial, Helvetica, sans-serif;
@@ -597,53 +509,44 @@ footer{
    font-weight: 400;
    text-decoration: underline;
 }
-
 .discussoes a{
    text-decoration: none;
 }
-
-
 .card-expandido{
    border: 1px solid #ECECEC;
    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
 }
-
 .card-header{
    display: flex;
    justify-content: space-between;
    align-items: center;
    margin-top: 17px;
 }
-
 .header-icones{
    display: flex;
    align-items: center;
 }
-
 .header-icones img{
    margin-right: 15px;
 }
-
 .card-expandido .topico-conteudo{
    margin-right: 30px;
    margin-top: 10px;
    margin-bottom: 35px;
 }
-
-.card-expandido .icone-autor, .card-expandido .icone-coautor, .card-expandido .icone-check{
+.card-expandido .icone-autor, 
+.card-expandido .icone-coautor, 
+.card-expandido .icone-check{
    display: none;
 }
-
 .card-expandido.resposta-autor .icone-autor, 
 .card-expandido.resposta-autor .icone-check{
    display:block;
 }
-
 .card-expandido.resposta-coautor .icone-coautor, 
 .card-expandido.resposta-coautor .icone-check{
    display:block;
 }
-
 .card-expandido.resposta-autor, .card-expandido.resposta-coautor{
    background-color: #F8F8F8;
 }
