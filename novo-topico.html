@@ -4,7 +4,7 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>SLACA</title>
+   <title>SLACA 2019</title>
    
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -157,23 +157,30 @@
 
          <div class="discussoes">
             <div class="section-title"> Discussões</div>
-            <div class="cirar-topico">
-               <span>Compartilhe suas ideias ou dúvidas com os autores!</span>
-               <div class="discussao-icones">
-                  <img src="./assets/images/icone1.png">
-                  <img src="./assets/images/icone2.png">
-                  <img src="./assets/images/icone3.png">
-               </div>
-               <p>Sabia que o maior estímulo no desenvolvimento científico e cultural é a curiosidade? Deixe seus questionamentos ou sugestões para o autor!</p>
-               
-               
-               <img src="./assets/images/divisória.png" id="divisoria">
-               <div class="topico-botao">
-                  <a href="./novo-topico.html">
-                     <img src="./assets/images/icon - criar.png"> 
-                     criar tópico
-                  </a>
-               </div>
+            
+            <div class="novo-topico">
+               <p>Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!</p>
+
+               <form>
+                  <label>Assunto</label>
+                  <input type="text" placeholder="Defina um tópico sucinto para notificar os autores..." name="assunto">
+                  <label>Conteúdo</label>
+                  <textarea></textarea>
+
+
+                  <div class="textarea-footer">
+                     <div class="text-transform-icons">
+                        <img src="./assets/images/B.png" id="bold">
+                        <img src="./assets/images/I.png" id="italic">
+                     </div>
+                     <a href="./topico-enviado.html">
+                        <div class="topico-submit">
+                           Enviar
+                        </div>
+                     </a>
+                  </div>
+
+               </form>
             </div>
 
             <div class="topico-criado">

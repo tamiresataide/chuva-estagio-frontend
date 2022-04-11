@@ -11,6 +11,10 @@
    height: 100%;
 }
 
+.fixed-wrapper a{
+   text-decoration: none;
+}
+
 .side-title{
    display: flex;
    justify-content: center;
@@ -39,17 +43,33 @@ nav a{
    text-decoration: none;
    color: #725C5C;
    height: 33px;
+   display: flex;
+   align-items: center;
 }
 
 .menu-item{
-   padding: 6px 24px;
+   padding: 5px 24px;
    border-bottom: 2px solid #E7E7E7;
    height: 33px;
    justify-self: center;
+   
+}
+
+.retangulo img{
+   margin-left: -24px;
+   margin-bottom: -3px;
+}
+
+.desativado .retangulo{
+   display: none;
 }
 
 .ativado{
    background-color: #FDF1EB;
+}
+
+.ativado .retangulo{
+   display: block;
 }
 
 .main-container{
@@ -115,9 +135,24 @@ header h2{
    font-size: 14px;
 }
 
-.login-image img{
+#profile-pic{
    border-radius: 60%;
    margin-left: 5px;
+}
+
+#notificacao{
+   position: absolute;
+   right: 10px;
+}
+
+.login-image span{
+   font-family: 'Roboto', sans-serif;
+   font-size: 12px;
+   font-weight: 700;
+   color: #FFF;
+   position: absolute;
+   right: 12px;
+   top: 17px;
 }
 
 .main-content{
@@ -255,13 +290,17 @@ header h2{
 }
 
 .detalhes-content{
-   padding: 15px;
    font-family: 'Quicksand', sans-serif;
    font-size: 12px;
    border: 1px solid #ECECEC;
    line-height: 14px;
    letter-spacing: 0.02em;
-   color: #5C5C5C;;
+   color: #5C5C5C;
+   display: flex;
+}
+
+.content-text{
+   margin: 15px;
 }
 
 #lista-autores{
@@ -289,6 +328,10 @@ header h2{
 .resumo span{
    color: #ED7839;
    font-weight: 700;
+}
+
+.resumo p{
+   padding: 15px;
 }
 
 .discussoes{
@@ -415,4 +458,136 @@ header h2{
 footer{
    margin-top: 50px;
    margin-left: 15px;
+}
+
+.novo-topico{
+   border-bottom: 1px solid #E7E7E7;
+   margin: 0px 18px 30px 
+}
+
+.novo-topico p{
+   margin-top: 15px;
+   text-align: center;
+}
+
+.novo-topico form{
+   display: flex;
+   flex-direction: column;
+}
+
+.novo-topico label{
+   font-family: 'Roboto', sans-serif;
+   font-size: 16px;
+   font-weight: 700;
+   color: #ED7839;
+   line-height: 18.75px;
+}
+
+.novo-topico input{
+   height: 39px;
+   border: 1px solid #CCCCCC;
+   border-radius: 3px;
+   margin-bottom: 10px;
+   padding-left: 23.13px;
+}
+
+.novo-topico textarea{
+   height: 113px;
+   resize: none;
+   border: 1px solid #CCCCCC;
+   border-bottom: none;
+   border-radius: 3px;
+}
+
+.textarea-footer{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #EAF1F2;
+   height: 31px;
+   border: 1px solid #CCCCCC;
+   border-top: none;
+   border-radius: 0px 0px 4px 4px;
+   margin-bottom: 15px;
+}
+
+#bold{
+   margin: 0 29.3px;
+}
+
+.topico-submit{
+   background: linear-gradient(180deg, #FEB154 0%, #F1833E 100%);
+   width: 205.1px;
+   height: 31px;
+   border: none;
+   font-family: 'Quicksand', sans-serif;
+   font-size: 15px;
+   font-weight: 700;
+   border-radius: 0px 0px 4px 0px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+ .textarea-footer a{
+   text-decoration: none;
+   color: #FFF;
+}
+
+.topico-enviado{
+   margin-bottom: 47px;
+   text-align: center;
+}
+
+.enviado-titulo{
+   font-family: 'Roboto', sans-serif;
+   font-size: 18px;
+   font-weight: 700;
+   color: #ED7839;
+   margin-bottom: 18px;
+}
+
+.topico-enviado span{
+   font-family: 'Quicksand', sans-serif;
+   font-weight: 500;
+   font-size: 14px;
+   color: #F48F44;
+   text-decoration: underline;
+}
+
+.topico-botao.novo{
+   padding: 7px 55.6px 9px 56.53px;
+}
+
+.aguardando-feedback{
+   background-image: url(../images/feedback.png);
+   background-position-x: -5px;
+   background-position-y: -5px;
+   height: 148px;
+   margin: 15px;
+   border: 1px solid #ECECEC;
+   border-radius: 4px;
+   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.aguardando-feedback p{
+   color: #707070;
+   font-family: 'Quicksand', sans-serif;
+   font-size: 16px;
+   font-weight: 700;
+   margin-top: 8px;
+   margin-bottom: 0;
+}
+
+.aguardando-feedback span{
+   color: #ED7839;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 14px;
+   font-weight: 400;
+   text-decoration: underline;
+
 }
