@@ -147,7 +147,7 @@ header h2{
 }
 
 .video-image{
-   background-image: url("/assets/images/video.png");
+   background-image: url("../images/video.png");
    margin-left: 2px;
    margin-top: 25px;
    width: 783px;
