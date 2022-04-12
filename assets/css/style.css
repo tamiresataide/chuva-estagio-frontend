@@ -578,6 +578,12 @@ footer{
       width: 100%;
       position:relative;
    }
+   #fixed-link{
+      background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+   }
+   .side-title{
+      background: none;
+   }
    .side-image{
       display: none;
    }
@@ -619,9 +625,13 @@ footer{
    #notificacao{
       display: none;
    }
+   .main-content{
+      margin-left: 10px;
+      margin-right: 0px;
+   }
    #overlay, #video{
       max-width: 350px;
-      left: 30px;
+      left: 5px;
    }
    .video-image{
       height: 200px;
@@ -629,10 +639,10 @@ footer{
    }
    .video-title{
       font-size: 12px;
-      margin: 0;
+      margin: 10px;
       width: 300px;
    }
    footer img{
-      width: 400px;
+      width: 300px;
    }
 }
