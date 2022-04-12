@@ -65,7 +65,7 @@ nav a{
 header{
    background-color: #FDF1EB;
    color: #725C5C;
-   width: 100%;
+   width: auto;
    height: 68px;
    padding-left: 36px;
    padding-right: 10px;
@@ -140,7 +140,7 @@ header h2{
    margin-bottom: 30px;
 }
 .video-area-principal{
-   flex: 3;
+   max-width: 800px;
    margin-right: 10px;
 }
 .video-area-principal h3{
@@ -152,13 +152,12 @@ header h2{
    letter-spacing: 1px;
 }
 .video-image{
-   background-image: url("../images/video.png");
    margin-left: 2px;
    margin-top: 25px;
    width: 783px;
    height: 439px;
 }
-#overlay{
+#overlay, #video{
    position: absolute;
    left: 265px;
 }
@@ -549,4 +548,89 @@ footer{
 }
 .card-expandido.resposta-autor, .card-expandido.resposta-coautor{
    background-color: #F8F8F8;
+}
+
+@media (max-width: 1000px){
+   header{
+      height: auto;
+   }
+   .video-area{
+      flex-direction: column;
+   }
+   
+   .detalhes-content img{
+      display: none;
+   }
+   .video-area-side{
+      width: 100%;
+   }
+   #divisoria{
+      display: none;
+   }
+   .video-image img{
+      max-width: 800px;
+   }
+}
+
+@media (max-width:830px){
+   .fixed-wrapper{
+      display: flex;
+      width: 100%;
+      position:relative;
+   }
+   .side-image{
+      display: none;
+   }
+   nav{
+      flex-direction: row; 
+      flex-wrap: wrap;     
+   }
+   .main-container{
+      margin-top: 10px;
+      margin-left: 0;
+   }
+   #overlay, #video{
+      left: 15px;
+      max-width: 600px;
+   }
+   .video-image{
+      height: 400px;
+   }
+   .video-info{
+      display: none;
+   }
+   .video-title{
+      font-size: 18px;
+      margin-top: 10px;
+      margin-left: 0px;
+      width: 500px;
+   }
+   footer img{
+      max-width: 600px;
+      object-fit: scale-down;
+   }
+}
+
+@media (max-width:425px){
+   header{
+      flex-direction: column;
+   }
+   #notificacao{
+      display: none;
+   }
+   #overlay, #video{
+      max-width: 350px;
+      left: 30px;
+   }
+   .video-image{
+      height: 200px;
+   }
+   .video-title{
+      font-size: 12px;
+      margin: 0;
+      width: 300px;
+   }
+   footer img{
+      width: 400px;
+   }
 }
